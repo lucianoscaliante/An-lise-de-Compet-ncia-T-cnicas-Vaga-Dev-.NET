@@ -1,0 +1,15 @@
+C:\Users\lucia\OneDrive\Área de Trabalho\Desafio-vaga-programador\bin\Debug\net7.0\Desafio-vaga-programador.exe
+C:\Users\lucia\OneDrive\Área de Trabalho\Desafio-vaga-programador\bin\Debug\net7.0\Desafio-vaga-programador.deps.json
+C:\Users\lucia\OneDrive\Área de Trabalho\Desafio-vaga-programador\bin\Debug\net7.0\Desafio-vaga-programador.runtimeconfig.json
+C:\Users\lucia\OneDrive\Área de Trabalho\Desafio-vaga-programador\bin\Debug\net7.0\Desafio-vaga-programador.dll
+C:\Users\lucia\OneDrive\Área de Trabalho\Desafio-vaga-programador\bin\Debug\net7.0\Desafio-vaga-programador.pdb
+C:\Users\lucia\OneDrive\Área de Trabalho\Desafio-vaga-programador\obj\Debug\net7.0\Desafio-vaga-programador.csproj.AssemblyReference.cache
+C:\Users\lucia\OneDrive\Área de Trabalho\Desafio-vaga-programador\obj\Debug\net7.0\Desafio-vaga-programador.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lucia\OneDrive\Área de Trabalho\Desafio-vaga-programador\obj\Debug\net7.0\Desafio-vaga-programador.AssemblyInfoInputs.cache
+C:\Users\lucia\OneDrive\Área de Trabalho\Desafio-vaga-programador\obj\Debug\net7.0\Desafio-vaga-programador.AssemblyInfo.cs
+C:\Users\lucia\OneDrive\Área de Trabalho\Desafio-vaga-programador\obj\Debug\net7.0\Desafio-vaga-programador.csproj.CoreCompileInputs.cache
+C:\Users\lucia\OneDrive\Área de Trabalho\Desafio-vaga-programador\obj\Debug\net7.0\Desafio-vaga-programador.dll
+C:\Users\lucia\OneDrive\Área de Trabalho\Desafio-vaga-programador\obj\Debug\net7.0\refint\Desafio-vaga-programador.dll
+C:\Users\lucia\OneDrive\Área de Trabalho\Desafio-vaga-programador\obj\Debug\net7.0\Desafio-vaga-programador.pdb
+C:\Users\lucia\OneDrive\Área de Trabalho\Desafio-vaga-programador\obj\Debug\net7.0\Desafio-vaga-programador.genruntimeconfig.cache
+C:\Users\lucia\OneDrive\Área de Trabalho\Desafio-vaga-programador\obj\Debug\net7.0\ref\Desafio-vaga-programador.dll

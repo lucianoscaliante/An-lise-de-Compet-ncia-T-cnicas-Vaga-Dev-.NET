@@ -1,0 +1,29 @@
+﻿@model DisciplinasModel
+@{
+    ViewData["Title"] = "EditarDisciplinas";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Editar Disciplina</h1>
+</div>
+<div class="row justify-content-center mt-5">
+    <div class="col-6">
+        <form asp-controller="Disciplinas" asp-action="EditarDisciplina" method="post">
+            <input type="hidden" asp-for="Id" />
+            <div class="mb-3">
+                <label for="nome">Nome da Matéria</label>
+                <input type="text" asp-for="Nome" class="form-control" placeholder="Digite o nome da Matéria">
+                @Html.ValidationMessageFor(x => x.Nome)
+            </div>
+            <div class="mb-3">
+                <label for="Descricao">Descrição da Matéria</label>
+                <input type="text" asp-for="Discricao" class="form-control" placeholder="Digite a descrição da Matéria">
+                @Html.ValidationMessageFor(x => x.Discricao)
+            </div>
+            <div class="d-grid gap-2 d-md-flex justify-content-end">
+                <button class="btn btn-success me-md-2" type="submit">Salvar</button>
+                <a class="btn btn-warning ml-1" asp-controller="Disciplinas" asp-action="Index">Voltar</a>
+            </div>
+        </form>
+    </div>
+</div>

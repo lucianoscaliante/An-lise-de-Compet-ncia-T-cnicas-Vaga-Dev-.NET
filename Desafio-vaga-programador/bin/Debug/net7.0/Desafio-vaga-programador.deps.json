@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "Desafio-vaga-programador/1.0.0": {
+        "runtime": {
+          "Desafio-vaga-programador.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Desafio-vaga-programador/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

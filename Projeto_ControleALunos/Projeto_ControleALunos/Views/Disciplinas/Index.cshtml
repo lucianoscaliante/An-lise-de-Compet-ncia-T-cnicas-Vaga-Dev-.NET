@@ -1,0 +1,39 @@
+﻿@model List<DisciplinasModel>
+@{
+    ViewData["Title"] = "ListaDeDisciplinasCadastradas";
+}
+
+<h1 class="text-center">Cadastros de Disciplinas</h1>
+<div class="mt-2 p-5">
+    <a class="btn btn-warning mb-2" asp-controller="Disciplinas" asp-action="CadastrarDisciplinas">Cadastrar Disciplinas</a>
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">ID</th>
+                <th scope="col">Nome</th>
+                <th scope="col">Descrição</th>
+                <th scope="col" class="text-center">Gerenciar</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model != null && Model.Any())
+            {
+                foreach (DisciplinasModel disciplina in Model)
+                {
+                    <tr>
+                        <th scope="row">@disciplina.Id</th>
+                        <td>@disciplina.Nome</td>
+                        <td>@disciplina.Discricao</td>
+                        <td>
+                            <div class="text-center">
+                                <a type="button" class="btn btn-primary" asp-route-id="@disciplina.Id" asp-controller="Disciplinas" asp-action="EditarDisciplina">Editar</a>
+                                <a type="button" class="btn btn-danger" asp-route-id="@disciplina.Id" asp-controller="Disciplinas" asp-action="ExcluirDisciplina">Excluir</a>
+                            </div>
+                        </td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+</div>
+
